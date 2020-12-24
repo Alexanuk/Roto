@@ -1,0 +1,38 @@
+body
+{
+	background-color:#333333;
+}
+.circle
+{
+	width: 40vh;
+	height: 40vh;
+	background-color:#E5D3BD;
+	border-radius: 50%;
+	border-bottom: 120px solid green;
+	border-left: 120px solid red;
+	border-right: 120px solid blue;
+	border-top: 120px solid yellow;
+	margin: 0 auto;
+	transition:transform 10s ease, border 3s ease-in-out, background-color 10s ease;
+}
+
+.active
+{
+	transform: rotate(3690deg) scale(0);
+	border-bottom-color: #EC008C;
+	border-left-color: #602D91;
+	border-right-color: #B3D334;
+	border-top-color: #F15A22;
+	background-color: #00BBD7;
+}
+
+button
+{
+	background-color: brown;
+	color: white;
+	width: 200px;
+	height: 30px;
+	display: block;
+	margin: 20px auto;
+	border: 2px solid red;
+}
